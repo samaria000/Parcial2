@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Vendedor v = new Vendedor("", 2000, new ComisionEstandar());
+        Vendedor v = new Vendedor("Samaria", 2000, new ComisionPersonalizada("Samaria"));
         v.mostrarDetalle();
     }
 }
